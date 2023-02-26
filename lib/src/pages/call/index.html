@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body class="bg-dark">
+  <div class="flexChild" id="camera-container">
+    <div class="camera-box">
+      <video id="local_video" autoplay muted width="300"></video>
+      <span id="rv"></span>
+      <input type="text" id="txtUser" placeholder="Enter username">
+      <input type="text" id="txtRoom" placeholder="Enter room">
+      <button type="button" id="btnConnect" onclick="connect()">Connect</button>
+    </div>
+  </div>
+  <script src="js/socket.io.min.js"></script>
+  <script src="js/rtc.js"></script>
+</body>
+
+</html>

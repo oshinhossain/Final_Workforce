@@ -1,0 +1,91 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'project_scope_bucket_board_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+ProjectScopeBucketBoard _$ProjectScopeBucketBoardFromJson(
+        Map<String, dynamic> json) =>
+    ProjectScopeBucketBoard(
+      id: json['id'] as String?,
+      countryCode: json['countryCode'] as String?,
+      countryName: json['countryName'] as String?,
+      agencyId: json['agencyId'] as String?,
+      agencyCode: json['agencyCode'] as String?,
+      agencyName: json['agencyName'] as String?,
+      projectId: json['projectId'] as String?,
+      projectCode: json['projectCode'] as String?,
+      projectName: json['projectName'] as String?,
+      bucketCode: json['bucketCode'] as String?,
+      bucketName: json['bucketName'] as String?,
+      outputTarget: (json['outputTarget'] as num?)?.toDouble(),
+      outputDescr: json['outputDescr'] as String?,
+      outputTargetAssigned: (json['outputTargetAssigned'] as num?)?.toDouble(),
+      outputAchieved: (json['outputAchieved'] as num?)?.toDouble(),
+      outputProgress: (json['outputProgress'] as num?)?.toDouble(),
+      countR: json['countR'] as int?,
+      countA: json['countA'] as int?,
+      countS: json['countS'] as int?,
+      countC: json['countC'] as int?,
+      countI: json['countI'] as int?,
+      progressR: (json['progressR'] as num?)?.toDouble(),
+      progressA: (json['progressA'] as num?)?.toDouble(),
+      progressS: (json['progressS'] as num?)?.toDouble(),
+      progressC: (json['progressC'] as num?)?.toDouble(),
+      progressI: (json['progressI'] as num?)?.toDouble(),
+      fullname: json['fullname'] as String?,
+      username: json['username'] as String?,
+      email: json['email'] as String?,
+      mobile: json['mobile'] as String?,
+      digest: json['digest'] as String?,
+      actualStartDate: json['actualStartDate'] as String?,
+      bucketDescr: json['bucketDescr'] as String?,
+      scheduledEndDate: json['scheduledEndDate'] as String?,
+      scheduledStartDate: json['scheduledStartDate'] as String?,
+      status: json['status'] as String?,
+      weightPct: (json['weightPct'] as num?)?.toDouble(),
+    );
+
+Map<String, dynamic> _$ProjectScopeBucketBoardToJson(
+        ProjectScopeBucketBoard instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'countryCode': instance.countryCode,
+      'countryName': instance.countryName,
+      'agencyId': instance.agencyId,
+      'agencyCode': instance.agencyCode,
+      'agencyName': instance.agencyName,
+      'projectId': instance.projectId,
+      'projectCode': instance.projectCode,
+      'projectName': instance.projectName,
+      'bucketCode': instance.bucketCode,
+      'bucketName': instance.bucketName,
+      'outputTarget': instance.outputTarget,
+      'outputDescr': instance.outputDescr,
+      'outputTargetAssigned': instance.outputTargetAssigned,
+      'outputAchieved': instance.outputAchieved,
+      'outputProgress': instance.outputProgress,
+      'countR': instance.countR,
+      'countA': instance.countA,
+      'countS': instance.countS,
+      'countC': instance.countC,
+      'countI': instance.countI,
+      'progressR': instance.progressR,
+      'progressA': instance.progressA,
+      'progressS': instance.progressS,
+      'progressC': instance.progressC,
+      'progressI': instance.progressI,
+      'fullname': instance.fullname,
+      'username': instance.username,
+      'email': instance.email,
+      'mobile': instance.mobile,
+      'digest': instance.digest,
+      'status': instance.status,
+      'scheduledStartDate': instance.scheduledStartDate,
+      'scheduledEndDate': instance.scheduledEndDate,
+      'actualStartDate': instance.actualStartDate,
+      'bucketDescr': instance.bucketDescr,
+      'weightPct': instance.weightPct,
+    };
